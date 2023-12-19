@@ -1,0 +1,18 @@
+/* ProjectForm.css */
+.project-form-container {
+    padding: 20px;
+  }
+  
+  .project-form-label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333; /* Text color */
+  }
+  
+  .project-form-input {
+    width: 100%;
+  }
+  
+  /* Customize the styles further based on your design preferences */
+  

@@ -1,0 +1,44 @@
+.login-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.bg-primary {
+  background: linear-gradient(to right, #3498db, #2c3e50);
+}
+
+.bg-primary > div {
+  padding-left: 20px;
+}
+
+.login-form {
+  width: 420px;
+}
+
+.login-form-title {
+  font-size: 2xl;
+  color: #333;
+}
+
+.login-divider {
+  margin: 20px 0;
+}
+
+.login-button {
+  margin-top: 10px;
+}
+
+.login-link {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.login-link span {
+  margin-right: 5px;
+  color: #333;
+}
+
+.login-link a {
+  color: #3498db;
+}

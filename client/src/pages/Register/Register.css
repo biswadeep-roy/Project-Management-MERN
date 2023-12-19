@@ -1,0 +1,15 @@
+
+.register-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .bg-primary-gradient {
+    background: linear-gradient(to right, #3498db, #2c3e50); 
+
+  }
+  
+  .bg-primary-gradient > div {
+    padding-left: 50px; 
+  }
+  

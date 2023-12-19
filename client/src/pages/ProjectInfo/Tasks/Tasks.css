@@ -1,0 +1,49 @@
+/* Tasks.css */
+
+.tasks-container {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ant-table {
+    margin-top: 20px;
+  }
+  
+  /* Styles for the filter options */
+  .tasks-filters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  
+    select {
+      padding: 8px;
+      margin-right: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  }
+  
+  /* Styles for the task details modal */
+  .task-details-modal {
+    .ant-modal-body {
+      padding: 20px;
+  
+      img {
+        max-width: 100%;
+        height: auto;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-top: 10px;
+      }
+    }
+  }
+  
+  /* Styles for the buttons in the action column */
+  .action-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  

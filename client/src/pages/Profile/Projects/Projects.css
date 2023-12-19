@@ -1,0 +1,30 @@
+/* Projects.css */
+.projects-container {
+    padding: 20px;
+  }
+  
+  .projects-table {
+    margin-top: 20px;
+  }
+  
+  .projects-add-button {
+    margin-bottom: 20px;
+  }
+  
+  .projects-action-icons {
+    display: flex;
+    gap: 4px;
+  }
+  
+  .projects-action-icons i {
+    cursor: pointer;
+    font-size: 18px;
+    color: #3498db; /* Adjust the color as needed */
+  }
+  
+  .projects-action-icons i:hover {
+    color: #2980b9; /* Adjust the hover color as needed */
+  }
+  
+  /* You can customize the styles further based on your design preferences */
+  

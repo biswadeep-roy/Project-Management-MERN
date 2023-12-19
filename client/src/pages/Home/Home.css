@@ -1,0 +1,56 @@
+.home-container {
+  padding: 20px;
+}
+
+.home-welcome {
+  margin-bottom: 20px;
+}
+
+.home-project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.home-project-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid #d1d1d1;
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.home-project-name {
+  color: #3498db;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.home-project-divider {
+  margin: 10px 0;
+}
+
+.home-project-info {
+  display: flex;
+  justify-content: space-between;
+  color: #777;
+}
+
+.home-project-info span {
+  font-size: 14px;
+}
+
+.home-no-projects {
+  margin-top: 20px;
+  color: #3498db;
+  font-size: 18px;
+  font-weight: bold;
+}

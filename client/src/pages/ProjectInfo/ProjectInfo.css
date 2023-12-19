@@ -1,0 +1,99 @@
+.container {
+  padding: 20px;
+}
+
+.project-details {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.project-name {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.project-description {
+  margin-top: 5px;
+  color: #666;
+  font-size: 14px;
+}
+
+.role-section {
+  display: flex;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.role-label {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.role-value {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.metadata-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.metadata-label {
+  font-weight: bold;
+  font-size: 14px;
+  color: #666;
+  margin-top: 5px;
+}
+
+.metadata-value {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.ant-tabs-tab {
+  font-size: 16px;
+}
+
+.ant-tabs-content {
+  padding: 20px;
+}
+
+.text-primary {
+  color: #1890ff;
+}
+
+.text-gray-600 {
+  color: #666;
+}
+
+.text-sm {
+  font-size: 14px;
+}
+
+.font-semibold {
+  font-weight: bold;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.divider {
+  margin: 20px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.flex-container {
+  display: flex;
+  gap: 20px;
+}
+
+.flex-item {
+  flex: 1;
+}
+.tabs-container {
+  margin-top: 20px;
+}

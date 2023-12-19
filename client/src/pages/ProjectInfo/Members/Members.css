@@ -1,0 +1,22 @@
+.members-container {
+  padding: 20px;
+}
+
+.members-add-button {
+  margin-bottom: 20px;
+}
+
+.members-role-filter {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.members-role-select {
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.members-table {
+  margin-top: 20px;
+}
